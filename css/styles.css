@@ -158,11 +158,11 @@ ul {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.sect4-item h3 {
+.sect-our-portfolio-item-header {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -170,7 +170,7 @@ ul {
     letter-spacing: 0.4px;
 }
 
-.sect4-item p {
+.sect-our-portfolio-item-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -192,6 +192,16 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+
+.footer-logo-web {
+   color: #F4F4FD;
+}
+
+.footer-logo-web:active,
+.footer-logo-web:hover,
+.footer-logo-web:focus {
+    color: #404BBF;
 }
 
 .footer-text {
