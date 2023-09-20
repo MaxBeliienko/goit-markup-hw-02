@@ -45,7 +45,7 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.header-link:hover {
+.header-link:hover, .header-link:focus {
     color: #404bbf;
 }
 
@@ -102,7 +102,7 @@ ul {
 
 /* section2 */
 
-.sect2-item-header {
+.sect-advantages-item-header {
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -110,7 +110,7 @@ ul {
     letter-spacing: 0.4px;
 }
 
-.sect2-item-text {
+.sect-advantages-item-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
